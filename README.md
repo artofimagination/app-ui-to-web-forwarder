@@ -11,7 +11,7 @@ See the example docker file and entry poin scripts for more info.
  - ```docker-entrypoint.sh.example```
  - ```Dockerfile.example```
 
-# More info regarding tp xpra and running 3d gui from docker
+# More info regarding to xpra and running 3D GUI from docker
  https://github.com/ffeldhaus/docker-xpra-html5-gpu-minimal
 
  https://github.com/NVIDIA/nvidia-container-runtime
