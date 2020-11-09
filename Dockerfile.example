@@ -1,0 +1,7 @@
+FROM artofimagination/app-ui-to-web:latest
+
+# Do the setup needed for the app that need to be run in the browser
+
+# use docker-entrypoint.sh to allow passing options to xpra and start xpra from bash
+COPY docker-entrypoint.sh /docker-entrypoint.sh
+ENTRYPOINT ["/docker-entrypoint.sh"]

@@ -1,0 +1,4 @@
+#!/bin/bash
+# start xpra as xpra user with command specified in dockerfile as CMD or passed as parameter to docker run
+CMD="/usr/bin/xpra start --daemon=no --start-child=<your app name>"
+runuser -c "$CMD"
