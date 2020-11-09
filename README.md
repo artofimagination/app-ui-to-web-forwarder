@@ -2,9 +2,11 @@
 Docker image to forward 2D/3D App UI to a webbrowser using [xpra] (https://xpra.org/) 
 
 # How to use?
-Create a docker image for the desired app to be run in the browser
+Create a docker image for the desired app to be run in the browser.
+
 Call the following to run the app:
  - ```/usr/bin/xpra start --daemon=no --start-child=<appname>```
+ 
 See the example docker file and entry poin scripts for more info.
  - ```docker-entrypoint.sh.example```
  - ```Dockerfile.example```
